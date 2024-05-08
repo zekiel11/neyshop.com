@@ -1,0 +1,131 @@
+body{
+
+}
+/* style de lq barre de navigation */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 8px;
+    justify-items: center;
+    box-shadow: 0px 4px 4px lightgray;
+    background-color: #fff;
+    
+}
+.logo h1 span{
+    color: blue;
+    text-transform: uppercase;
+}
+header ul{
+    list-style: none;
+    margin-right: 40px;
+
+}
+header ul li{
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    &:hover{
+        color: blue;
+    }
+}
+a{
+    text-decoration: none;
+    
+}
+.btn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    &:hover{
+        color: white;
+    }
+}
+/* style landing page */
+.landing{
+    
+    background-image: url('./images/oo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: -20px;
+    padding-top: 10%;
+    width: 100%;
+    
+}
+.landing div{
+    padding: 20px;
+    
+     h1{
+        color: white;
+        font-size: 50px;
+        span{
+            color: blue;
+        }
+     }
+     h2{
+        color: rgb(144, 217, 241);
+        font-weight: 300;
+     }
+     .btnWel{
+        border: none;
+        padding: 10px;
+        background-color: blue;
+        color: white;
+        justify-content: center;
+        text-align: center;
+        border-radius: 8px;
+     }
+     
+}
+section{
+    width: 100%;
+    overflow-x: hidden;
+    h1{
+        color: blue;
+        font-size: 30px;
+    }
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    box-sizing: border-box;
+    gap: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.article{
+    box-sizing: border-box;
+    img{
+        width: 100%;
+        
+    } 
+}
+.description{
+    div{
+        margin-top: 20px;
+        input{
+            padding: 7px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .bt2{
+            background-color: green;
+        }
+    }
+}
+a{
+
+    padding-top: 30px;
+    text-align: center;
+    
+}
